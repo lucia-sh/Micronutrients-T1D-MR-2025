@@ -1,3 +1,4 @@
+#proxy search for Verma et al. GWAS
 
 merge_proxy_with_outcome <- function(ancestry, proxy_MR, outcome, save_path) {
   library(data.table)
@@ -80,6 +81,7 @@ merge_proxy_with_outcome <- function(ancestry, proxy_MR, outcome, save_path) {
   
   return(outcome_final)
 }
+
 
 
 
