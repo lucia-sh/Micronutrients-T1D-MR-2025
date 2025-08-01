@@ -10,3 +10,18 @@ Methods: We performed a two-sample MR analysis using genetic variants from genom
 Results: The MR analysis showed a positive association between potassium levels and T1D risk, sustained after Bonferroni correction (p < 0.0029, OR = 1.098, 95% CI [1.075, 1.122] in the multi-ancestry T1D GWAS). Zinc, vitamin B12, retinol, and alpha-tocopherol showed nominal associations. Vitamin C, D, K1, B6, beta- and gamma-tocopherol, magnesium, iron, copper, selenium, carotene, and folate showed no significant effect on T1D risk. For the multi-ancestry GWAS, ORs required for 80% power for the micronutrients ranged from 1.15 to 3.35, indicating limited power to detect small effects. 
 
 Conclusions: Higher serum potassium levels were associated with increased T1D risk in our MR study, though supporting observational evidence is currently limited. Other micronutrients are unlikely to have large effects on T1D. 
+
+# GITHUB content
+Main_MR/: Core MR analysis scripts
+- TwoSampleMR.R: Implements main MR methods (e.g., inverse-variance weighted, MR-Egger)
+- Verma_proxy_search.R: Proxy SNP search for the Verma et al. T1D GWAS
+- proxy_search.R: General proxy SNP search for MR analysis
+
+Supplementary_MR/: Supplementary MR methods and visualizations
+- MRlap_method.r: MRLap analysis for integrative MR
+- MR_PRESSO.r: MR-PRESSO for pleiotropy correction
+- Steiger_test.r: Steiger test for causal direction
+- MR_plot.r: Generates supplementary plots
+
+GWAS_processing/: GWAS data processing scripts
+- rsid_extraction.r: RSID extraction for the Sakaue et al. T1D GWAS
