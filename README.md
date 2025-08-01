@@ -13,7 +13,7 @@ Conclusions: Higher serum potassium levels were associated with increased T1D ri
 
 # GITHUB content
 Main_MR/: Core MR analysis scripts
-- TwoSampleMR.R: Implements main MR methods (e.g., inverse-variance weighted, MR-Egger)
+- TwoSampleMR.R: Implements main MR methods (e.g., inverse-variance weighted, MR-Egger, Weighted Mode, Weighted Median)
 - Verma_proxy_search.R: Proxy SNP search for the Verma et al. T1D GWAS
 - proxy_search.R: General proxy SNP search for MR analysis
 
