@@ -47,8 +47,8 @@ result <- MRlap(
 # 'ld' should point to the directory containing LD score files (e.g., eur_w_ld_chr)
 # 'hm3' should point to the HapMap3 SNP list used to filter SNPs (e.g., w_hm3.snplist)
 
-  ld            = "path to ld files eur_w_ld_chr",
-  hm3           = "path to HapMap3 w_hm3.snplist",
+  ld            = "/eur_w_ld_chr",
+  hm3           = "/w_hm3.snplist",
   do_pruning    = FALSE,
   user_SNPsToKeep = exposure_filtered$rsid,
   MR_reverse    = 1e-3,
